@@ -1,3 +1,16 @@
+/*
+#TASK: you must save a line of input from stdin to a variable, print Hello, World. on a single line, 
+and finally print the value of your variable on a second line.
+
+NOTE: Variable may be written differently depending on the best-practice conventions of your submission language.
+
+Input Format: A single line of text denoting the variable whose contents must be printed.
+
+On the first line, we print the string literal Hello, World.
+On the second line, we print the contents of the variable which, for this sample case, happens to be Welcome to 30 Days of Code!. 
+If you do not print the variable's contents to stdout, you will not pass the HIDDEN test case.
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
