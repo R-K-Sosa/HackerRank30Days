@@ -26,10 +26,10 @@ public class Solution {
 	// Read a full line of input from stdin and save it to our variable, s.	
         String s=sc.nextLine();
         
-	// Print a string literal saying "Hello, World." to stdout.
+	// Print a string literally saying "Hello, World." to stdout.
         System.out.println("Hello, World.");
 	
-	//Prints the contents of our variable, s, to stdout.
+	//Print the contents of our variable, s, to stdout.
         System.out.println(s);
 		
 	}
