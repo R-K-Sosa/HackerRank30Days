@@ -38,11 +38,12 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         
         /* Declare second integer, double, and String variables. */
+	
         int i1;
         double d1;
         String s1;
 
-        /* Read and save an integer, double, and String to your variables.*/
+        /*Read and save an integer, double, and String to your variables.*/
         /*Here, scan is an object of scanner class; using that, you can scan value and take value from user*/
 	
         i1=scan.nextInt(); 
