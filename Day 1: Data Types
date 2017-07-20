@@ -22,6 +22,11 @@ Print the sum of both integers on the first line, the sum of both doubles
 strings on the third line.
 */
 
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
