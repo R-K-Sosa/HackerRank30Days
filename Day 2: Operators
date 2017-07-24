@@ -30,15 +30,15 @@ public class Arithmetic {
         taxPercent = scan.nextInt(); // tax percentage
         scan.close();
       
-        // Write your calculation code here.
+        // Calculation code
         totalMealPercent += mealCost;
         totalMealPercent += mealCost*tipPercent/100;
         totalMealPercent += mealCost*taxPercent/100;
       
-        // cast the result of the rounding operation to an int and save it as totalCost 
+        // Cast the result of the rounding operation to an int and save it as totalCost
         totalCost = (int)Math.round(totalMealPercent);
       
-        // Print your result
+        // Print result
         System.out.println("The total meal cost is "+totalCost+" dollars.");
     }
 }
