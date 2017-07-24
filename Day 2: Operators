@@ -20,17 +20,25 @@ import java.math.*;
 public class Arithmetic {
 
     public static void main(String[] args) {
+    
+    // Create a Scanner object to read input from stdin.
         Scanner scan = new Scanner(System.in);
         
+        /* Declare integer and double variables. Initalize the totalMealPercent variable.*/
         int tipPercent, taxPercent, totalCost;
         double mealCost, totalMealPercent=0.0;
         
+        /*Read and save an integer and double to your variables.*/
+	        /*Here, scan is an object of scanner class; using that, you can scan value and take value from user*/
+            
         mealCost = scan.nextDouble(); // original meal price
         tipPercent = scan.nextInt(); // tip percentage
         taxPercent = scan.nextInt(); // tax percentage
         scan.close();
       
         // Calculation code
+         /*Concatenate int and double variables by taking the previous with current value of mealCost and adding them together.*/
+
         totalMealPercent += mealCost;
         totalMealPercent += mealCost*tipPercent/100;
         totalMealPercent += mealCost*taxPercent/100;
