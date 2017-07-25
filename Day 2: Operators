@@ -28,7 +28,7 @@ public class Arithmetic {
         int tipPercent, taxPercent, totalCost;
         double mealCost, totalMealPercent=0.0;
         
-        /*Read and save an integer and double to your variables.*/
+        /*Read and save the double and integers to your variables.*/
 	        /*Here, scan is an object of scanner class; using that, you can scan value and take value from user*/
             
         mealCost = scan.nextDouble(); // original meal price
